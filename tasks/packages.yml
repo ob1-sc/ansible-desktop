@@ -7,6 +7,7 @@
     - tree
     - firefox
     - remmina
+    - ubuntu-wallpapers*
 
 - name: Install deb packages
   apt: deb={{item}}
