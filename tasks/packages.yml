@@ -1,3 +1,8 @@
+- name: Remove apt packages
+  apt: name={{item}} state=absent
+  with_items:
+    - chromium-browser
+
 - name: Install apt packages
   apt: name={{item}}
   with_items:
@@ -9,6 +14,7 @@
     - remmina
     - ubuntu-wallpapers*
     - xclip
+    - virtualbox-5.2
 
 - name: Install deb packages
   apt: deb={{item}}
