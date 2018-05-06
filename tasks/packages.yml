@@ -7,5 +7,7 @@
     - tree
 
 - name: Install deb packages
-  apt:
-    deb: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  apt: deb={{item}}
+    with_items:
+      - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+      - https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.0-amd64.deb
