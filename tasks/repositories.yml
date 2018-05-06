@@ -6,4 +6,4 @@
   apt_repository: repo={{item}}
   with_items:
     - ppa:remmina-ppa-team/remmina-next
-    - deb https://download.virtualbox.org/virtualbox/debian {{ansible_distribution_release}} contrib
+    - deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian {{ansible_distribution_release}} contrib
