@@ -15,7 +15,6 @@
     - ubuntu-wallpapers*
     - xclip
     - virtualbox-5.2
-    - hashalot
 
 - name: Remove useless packages from the cache
   apt:
