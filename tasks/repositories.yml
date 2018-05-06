@@ -1,7 +1,7 @@
-- name: Add apt keys
-  apt_key: url={{item}}
-  with_items:
-    - https://www.virtualbox.org/download/oracle_vbox_2016.asc
+# - name: Add apt keys
+#   apt_key: url={{item}}
+#   with_items:
+#     - https://www.virtualbox.org/download/oracle_vbox_2016.asc
 
 - name: Add apt repositories
   apt_repository: repo={{item}}
