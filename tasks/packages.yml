@@ -8,6 +8,7 @@
     - firefox
     - remmina
     - ubuntu-wallpapers*
+    - xclip
 
 - name: Install deb packages
   apt: deb={{item}}
@@ -19,3 +20,4 @@
   command: snap install {{item}}
   with_items:
     - simplenote
+    - pycharm-community --classic
