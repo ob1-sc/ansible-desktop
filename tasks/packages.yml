@@ -28,7 +28,7 @@
   apt: deb={{item}}
   with_items:
     - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-    - https://downloads.slack-edge.com/linux_releases/slack-desktop-2.8.0-amd64.deb
+    - https://downloads.slack-edge.com/linux_releases/slack-desktop-3.1.1-amd64.deb
 
 - name: Install snap packages
   command: snap install {{item}}
