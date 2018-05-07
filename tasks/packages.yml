@@ -29,6 +29,7 @@
   with_items:
     - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
     - https://download.expressvpn.xyz/clients/linux/expressvpn_1.4.2_amd64.deb
+    - https://d2t3ff60b2tol4.cloudfront.net/builds/insync_1.4.5.37069-artful_amd64.deb
 
 - name: Install snap packages
   command: snap install {{item}}
