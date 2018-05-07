@@ -2,6 +2,11 @@
   apt_key:
     url: https://www.virtualbox.org/download/oracle_vbox_2016.asc
 
+- name: InSync signing key
+  apt_key:
+    keyserver: keyserver.ubuntu.com
+    id: ACCAF35C
+
 - name: Add apt repositories
   apt_repository: repo={{item}}
   with_items:
