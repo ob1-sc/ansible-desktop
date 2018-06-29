@@ -36,5 +36,7 @@
   with_items:
     - simplenote
     - pycharm-community --classic
+    - install intellij-idea-community --classic
+    - atom --classic
     - slack --classic
     - minecraft
